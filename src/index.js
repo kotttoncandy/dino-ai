@@ -75,7 +75,7 @@ scene("main", () => {
     onCollide("player", "blocks", (e,a) => {
         e.destroy()
         var current_best_weight1 = best_weight1
-        var current_best_weight2 = best_weight1
+        var current_best_weight2 = best_weight2
         var current_best_fitness = best_fitness
         var current_best_bias = best_bias
 
